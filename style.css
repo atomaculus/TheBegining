@@ -1,1 +1,3 @@
-.barra {display: inline;}
+.barra {display: inline;
+        position: fixed;}
+#titulo {text-align: center;}
