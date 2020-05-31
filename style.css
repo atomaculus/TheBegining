@@ -1,9 +1,13 @@
-#barra1 {display: inline;
+.barra #bar1 {display: inline;
         position: fixed;
         top: 100px;
-        left: 900px;}
-#barra2{display: inline;
+        left: 1200px;}
+.barra #bar2 {display: inline;
         position: fixed;
         top: 100px;
-        left: 600px;}
+        left: 1000px;}
+.barra #bar3 {display: inline;
+    position: fixed;
+    top: 100px;
+    left: 800px;}
 #titulo {text-align: center;}
