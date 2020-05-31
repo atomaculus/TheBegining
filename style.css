@@ -1,12 +1,12 @@
-.barra #bar1 {display: inline;
+#bar1 {display: inline;
         position: fixed;
         top: 100px;
         left: 1200px;}
-.barra #bar2 {display: inline;
+#bar2 {display: inline;
         position: fixed;
         top: 100px;
         left: 1000px;}
-.barra #bar3 {display: inline;
+#bar3 {display: inline;
     position: fixed;
     top: 100px;
     left: 800px;}
