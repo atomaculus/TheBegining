@@ -1,9 +1,12 @@
-#bar1:hover {color: rgb(212, 190, 60);
-              text-decoration: unset;}
+.barra {text-decoration: unset;
+        color: black}
 #bar1 {display: inline;
         position: fixed;
         top: 100px;
-        left: 1200px;}
+        left: 1200px
+      }
+.barra:hover {color: rgb(212, 190, 60);
+              text-decoration: unset;}
 #bar2 {display: inline;
         position: fixed;
         top: 100px;
@@ -12,4 +15,6 @@
     position: fixed;
     top: 100px;
     left: 800px;}
-#titulo {text-align: center;}
+#titulo {float: left;
+        clear: right;
+    width: 500px;}
