@@ -24,23 +24,28 @@
     <br>
   
     <h2>Contactenos</h2>
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Your Role: <select name="role[]" multiple>
-          <option value="leader">Leader</option>
-          <option value="follower">Follower</option>
-        </select></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
+    <form id="formulario" action="process-form.php" method="post" data-netlify="true">
+    <p>
+        <label name='nombre' for="inputName"></label>
+        <input placeholder="Nombre*" type="text"  id="inputName">
+        <label name='apellido' for="inputSurname"></label>
+        <input placeholder="Apellido*" type="text" id="inputSurname">
+    </p>
+    <p>
+        <label name='email' for="inputEmail"></label>
+        <input placeholder="Email*" type="text" id="inputEmail">
+        <label name='tel' for="inputTel"></label>
+        <input placeholder="Telefono" type="text" id="inputTel">
+    </p>
+    <p>
+        <label name='asunto' for="inputAsunto"></label>
+        <input placeholder="Asunto/Motivo" type="text" id="inputAsunto">
+    </p>
+    <p>
+        <label name='mensaje' for="inputMensaje"><sup></sup></label>
+        <textarea id="inputMensaje" rows="8" cols="50"></textarea>
+    </p>
+    <p>
         <button type="submit">Send</button>
       </p>
     </form>
