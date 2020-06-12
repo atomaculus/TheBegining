@@ -24,31 +24,26 @@
     <br>
   
     <h2>Contactenos</h2>
-    <form id="formulario" action="process-form.php" method="post" data-netlify="true">
-    <p>
-        <label name='nombre' for="inputName"></label>
-        <input placeholder="Nombre*" type="text"  id="inputName">
-        <label name='apellido' for="inputSurname"></label>
-        <input placeholder="Apellido*" type="text" id="inputSurname">
-    </p>
-    <p>
-        <label name='email' for="inputEmail"></label>
-        <input placeholder="Email*" type="text" id="inputEmail">
-        <label name='tel' for="inputTel"></label>
-        <input placeholder="Telefono" type="text" id="inputTel">
-    </p>
-    <p>
-        <label name='asunto' for="inputAsunto"></label>
-        <input placeholder="Asunto/Motivo" type="text" id="inputAsunto">
-    </p>
-    <p>
-        <label name='mensaje' for="inputMensaje"><sup></sup></label>
-        <textarea id="inputMensaje" rows="8" cols="50"></textarea>
-    </p>
-    <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Nombre: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Telefono: <input type="text" name="telefono" /></label>
+        </p>
+        <p>
+            <label>Motivo: <input type="text" name="motivo" /></label>
+        </p>
+        <p>
+          <label>Mensaje: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.27956158094!2d-58.792193398343684!3d-34.43795222325908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9edc57df1eb1%3A0x7575570519b79628!2sLas%20Camelias%203324%2C%20Del%20Viso%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1591112755802!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0179437620736!2d-58.39324828505233!3d-34.60370776500402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac1126de465%3A0xc617ded95ba93c3!2sRodr%C3%ADguez%20Pe%C3%B1a%20454%2C%20C1048%20CABA!5e0!3m2!1ses!2sar!4v1591423235437!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>         
     <script src="script.js"></script>
